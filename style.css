@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    background-color: rgb(238, 218, 132);
+}
+p{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.menu{
+    background-color: #444;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 40px;
+    text-align: center;
+    color: rgb(238, 218, 132);
+    box-shadow: 4px 4px 4px 1px #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-btn{
+    background-color: #444;
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: center;
+    color: rgb(238, 218, 132);
+    box-shadow: 4px 4px 4px 1px #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    margin-left: 12%;
+    margin-right: 10%;
+    margin-top: 10%; 
+}
+.name-txt{
+    font-size: 5em;
+    font-weight: 700;
+    color:#222;
+}
+.name2-txt{
+    font-weight: 100;
+    font-size: 1.3em;
+    color:#222;
+}
+.plinks{
+    background-color: #444;
+    color: rgb(250, 235, 171);
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.8em;
+    letter-spacing: 0.6px;
+}
+.btn{
+    background-color: transparent;
+    border: 2px solid #444;
+    box-shadow: 4px 4px 4px 1px #666;
+    color: #333;
+    font-size: 1.1em;
+    font-weight: 900;
+    padding: 10px;
+}
+.btn-a{
+    color: #333;
+    font-size: 1.1em;
+    font-weight: 900;
+    padding: 10px;
+    text-decoration-line: none;
+    margin-left: 30px;
+}
