@@ -38,12 +38,12 @@ p{
     align-items: center;
 }
 .content{
-    margin-left: 12%;
-    margin-right: 10%;
-    margin-top: 10%; 
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%; 
 }
 .name-txt{
-    font-size: 5em;
+    font-size: 4em;
     font-weight: 700;
     color:#222;
 }
@@ -51,6 +51,9 @@ p{
     font-weight: 100;
     font-size: 1.3em;
     color:#222;
+}
+.content-txt{
+    width: 100%;
 }
 .plinks{
     background-color: #444;
@@ -66,15 +69,50 @@ p{
     border: 2px solid #444;
     box-shadow: 4px 4px 4px 1px #666;
     color: #333;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 900;
-    padding: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
 }
 .btn-a{
     color: #333;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 900;
-    padding: 10px;
+    padding: 5px;
     text-decoration-line: none;
-    margin-left: 30px;
+    
 }
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .name-txt{
+        font-size: 5em;
+        font-weight: 700;
+        color:#222;
+    }
+    .content{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%; 
+    }
+    .btn{
+        background-color: transparent;
+        border: 2px solid #444;
+        box-shadow: 4px 4px 4px 1px #666;
+        color: #333;
+        font-size: 1.1em;
+        font-weight: 900;
+        padding: 10px;
+    }
+    .btn-a{
+        color: #333;
+        font-size: 1.1em;
+        font-weight: 900;
+        padding: 10px;
+        text-decoration-line: none;
+        margin-left: 30px;
+    }
+    .content-txt{
+        width: 80% !important;
+    }
+  }
